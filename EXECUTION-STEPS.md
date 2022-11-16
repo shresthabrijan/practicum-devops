@@ -1,8 +1,10 @@
 # Steps for deployment
 
-## This deployment is carried out in AWS platform
+### This deployment is carried out in AWS platform
 
-### The following steps will provision an ec2 instance with Ubuntu 20.04 and run a bash script on the instance after boot. The script will provision the instance for frontend and backend application deployment, deploy the application and output an elastic IP that can be used to access the app.  
+![alt text](deployment.png "Title")
+
+#### The following steps will provision an ec2 instance with Ubuntu 20.04 and run a bash script on the instance after boot. The script will provision the instance for frontend and backend application deployment, deploy the application and output an elastic IP that can be used to access the app.  
 
 1. Checkout the branch and change directory to terrform
 ```bash
